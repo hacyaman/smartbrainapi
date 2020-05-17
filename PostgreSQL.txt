@@ -1,0 +1,4 @@
+C:\Program Files\PostgreSQL\12\data
+
+pg_ctl -D "C:\Program Files\PostgreSQL\12\data" start
+pg_ctl -D "C:\Program Files\PostgreSQL\12\data" stop
