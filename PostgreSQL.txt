@@ -1,4 +1,10 @@
 C:\Program Files\PostgreSQL\12\data
 
+psql -U postgres
+
+# \c smart-brain
+# CREATE TABLE users (id serial PRIMARY KEY, name VARCHAR(100), email text UNIQUE NOT NULL, entries BIGINT DEFAULT 0, joined TIMESTAMP NOT NULL);
+# CREATE TABLE login (id serial PRIMARY KEY, hash VARCHAR(100) NOT NULL, email text UNIQUE NOT NULL);
+
 pg_ctl -D "C:\Program Files\PostgreSQL\12\data" start
 pg_ctl -D "C:\Program Files\PostgreSQL\12\data" stop
